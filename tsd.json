@@ -1,0 +1,11 @@
+{
+  "path": "typings",
+  "version": "v4",
+  "repo": "frett27/DefinitelyTyped",
+  "ref": "master",
+  "installed": {
+    "esri-jsapi-amd/esri.d.ts": {
+      "commit": "77490592b1ce8d457d68cf2209782651649d1389"
+    }
+  }
+}

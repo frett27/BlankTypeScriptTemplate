@@ -9,4 +9,6 @@ to install dependencies :
 
 `npm install`
 
+`grunt`
+
 

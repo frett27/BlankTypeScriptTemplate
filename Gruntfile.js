@@ -61,7 +61,7 @@ module.exports = function(grunt) {
         },
         open: {
             dev: {
-                path: 'http://localhost:8080/index.html'
+                path: 'http://localhost:8080/'
             }
         },
         tsd: {
@@ -104,7 +104,7 @@ module.exports = function(grunt) {
 
     // Default task(s).
     //grunt.registerTask('default', ['typescript', 'connect', 'yuidoc', 'open', 'watch']);
-    grunt.registerTask('default', ['typescript', 'connect', 'open', 'watch']);
+    grunt.registerTask('default', ['tsd:refresh','typescript', 'connect', 'open', 'watch']);
 
 
 };

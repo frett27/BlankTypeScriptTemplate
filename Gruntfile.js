@@ -45,9 +45,8 @@ module.exports = function(grunt) {
                 options: {
                     module: 'amd', //or commonjs
                     target: 'es5', //or es3
-                    base_path: './',
-                    sourcemap: true,
-                    fullSourceMapPath: true,
+                    basePath: './',
+                    sourceMap: true,
                     force: true,
                     declaration: false,
                     comments: true
@@ -57,7 +56,7 @@ module.exports = function(grunt) {
         },
         watch: {
             files: '**/*.ts',
-            tasks: ['typescript']
+            tasks: ['typescript','tslint']
         },
         open: {
             dev: {
@@ -85,7 +84,7 @@ module.exports = function(grunt) {
             },
             your_target: {
                 // Target-specific file lists and/or options go here.
-                src: ["samples/**/*.ts"]
+                src: ["src/**/*.ts"]
             },
         }
 
